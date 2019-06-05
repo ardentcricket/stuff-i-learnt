@@ -40,3 +40,10 @@ console.log(person2.friends)
 // got new friends now
 person2.friends.push("ice cream")
 console.log(person2.freinds)
+
+// Constructor object on functions
+function doSomething() { };
+console.log(doSomething.prototype)
+
+var doSomething = function doSomething() { };
+console.log(doSomething.prototype)
